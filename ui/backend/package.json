@@ -1,0 +1,12 @@
+{
+  "name": "lmn-test-ai-backend",
+  "version": "1.0.0",
+  "description": "Backend for LMN_TEST_AI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

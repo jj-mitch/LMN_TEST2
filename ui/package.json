@@ -1,0 +1,14 @@
+{
+  "name": "lmn-test-ai",
+  "version": "1.0.0",
+  "description": "LMN_TEST AI application",
+  "scripts": {
+    "install-all": "concurrently \"cd frontend && npm install\" \"cd backend && npm install\"",
+    "start": "cross-env NODE_ENV=development node start.js",
+    "start-prod": "cross-env NODE_ENV=production node start.js"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "cross-env": "^7.0.3"
+  }
+}

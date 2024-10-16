@@ -1,0 +1,12 @@
+{
+  "name": "lmn-test-ai-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for LMN_TEST_AI",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^13.0.0"
+  }
+}
